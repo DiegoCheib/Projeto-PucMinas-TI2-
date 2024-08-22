@@ -8,7 +8,7 @@ public class ProdutoDAO {
     public ProdutoDAO() {
         try {
             // Conectar ao PostgreSQL
-            conexao = DriverManager.getConnection("jdbc:postgresql://localhost:5432/seu_banco_de_dados", "usuario", "senha");
+            conexao = DriverManager.getConnection("jdbc:postgresql://localhost:5432/loja", "postgres", "root");
         } catch (SQLException e) {
             e.printStackTrace();
         }
