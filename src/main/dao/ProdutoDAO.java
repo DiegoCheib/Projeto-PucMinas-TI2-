@@ -1,6 +1,9 @@
+package src.main.dao;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import src.main.model.Produto;
 
 public class ProdutoDAO {
     private Connection conexao;
